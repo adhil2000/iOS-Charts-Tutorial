@@ -3,70 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BC3522FE271766BB0086F86A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3522FD271766BB0086F86A /* AppDelegate.swift */; };
-		BC352300271766BB0086F86A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3522FF271766BB0086F86A /* SceneDelegate.swift */; };
-		BC352302271766BB0086F86A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC352301271766BB0086F86A /* ViewController.swift */; };
-		BC352305271766BB0086F86A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC352303271766BB0086F86A /* Main.storyboard */; };
-		BC352307271766BD0086F86A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC352306271766BD0086F86A /* Assets.xcassets */; };
-		BC35230A271766BD0086F86A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC352308271766BD0086F86A /* LaunchScreen.storyboard */; };
-		BC352315271766BD0086F86A /* Charts_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC352314271766BD0086F86A /* Charts_TutorialTests.swift */; };
-		BC352320271766BD0086F86A /* Charts_TutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC35231F271766BD0086F86A /* Charts_TutorialUITests.swift */; };
+		BCA8861527189DF10096CBF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA8861427189DF10096CBF3 /* AppDelegate.swift */; };
+		BCA8861727189DF10096CBF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA8861627189DF10096CBF3 /* SceneDelegate.swift */; };
+		BCA8861927189DF10096CBF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA8861827189DF10096CBF3 /* ViewController.swift */; };
+		BCA8861C27189DF10096CBF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA8861A27189DF10096CBF3 /* Main.storyboard */; };
+		BCA8861E27189DF30096CBF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA8861D27189DF30096CBF3 /* Assets.xcassets */; };
+		BCA8862127189DF30096CBF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA8861F27189DF30096CBF3 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		BC352311271766BD0086F86A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC3522F2271766BB0086F86A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BC3522F9271766BB0086F86A;
-			remoteInfo = "Charts-Tutorial";
-		};
-		BC35231C271766BD0086F86A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC3522F2271766BB0086F86A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BC3522F9271766BB0086F86A;
-			remoteInfo = "Charts-Tutorial";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		BC3522FA271766BB0086F86A /* Charts-Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Charts-Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC3522FD271766BB0086F86A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BC3522FF271766BB0086F86A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BC352301271766BB0086F86A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BC352304271766BB0086F86A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BC352306271766BD0086F86A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BC352309271766BD0086F86A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BC35230B271766BD0086F86A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC352310271766BD0086F86A /* Charts-TutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Charts-TutorialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC352314271766BD0086F86A /* Charts_TutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charts_TutorialTests.swift; sourceTree = "<group>"; };
-		BC352316271766BD0086F86A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC35231B271766BD0086F86A /* Charts-TutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Charts-TutorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC35231F271766BD0086F86A /* Charts_TutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charts_TutorialUITests.swift; sourceTree = "<group>"; };
-		BC352321271766BD0086F86A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCA8861127189DF10096CBF3 /* Charts-Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Charts-Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA8861427189DF10096CBF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCA8861627189DF10096CBF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BCA8861827189DF10096CBF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCA8861B27189DF10096CBF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCA8861D27189DF30096CBF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCA8862027189DF30096CBF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCA8862227189DF30096CBF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BC3522F7271766BB0086F86A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC35230D271766BD0086F86A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC352318271766BD0086F86A /* Frameworks */ = {
+		BCA8860E27189DF10096CBF3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,68 +37,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BC3522F1271766BB0086F86A = {
+		BCA8860827189DF10096CBF3 = {
 			isa = PBXGroup;
 			children = (
-				BC3522FC271766BB0086F86A /* Charts-Tutorial */,
-				BC352313271766BD0086F86A /* Charts-TutorialTests */,
-				BC35231E271766BD0086F86A /* Charts-TutorialUITests */,
-				BC3522FB271766BB0086F86A /* Products */,
+				BCA8861327189DF10096CBF3 /* Charts-Tutorial */,
+				BCA8861227189DF10096CBF3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BC3522FB271766BB0086F86A /* Products */ = {
+		BCA8861227189DF10096CBF3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BC3522FA271766BB0086F86A /* Charts-Tutorial.app */,
-				BC352310271766BD0086F86A /* Charts-TutorialTests.xctest */,
-				BC35231B271766BD0086F86A /* Charts-TutorialUITests.xctest */,
+				BCA8861127189DF10096CBF3 /* Charts-Tutorial.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BC3522FC271766BB0086F86A /* Charts-Tutorial */ = {
+		BCA8861327189DF10096CBF3 /* Charts-Tutorial */ = {
 			isa = PBXGroup;
 			children = (
-				BC3522FD271766BB0086F86A /* AppDelegate.swift */,
-				BC3522FF271766BB0086F86A /* SceneDelegate.swift */,
-				BC352301271766BB0086F86A /* ViewController.swift */,
-				BC352303271766BB0086F86A /* Main.storyboard */,
-				BC352306271766BD0086F86A /* Assets.xcassets */,
-				BC352308271766BD0086F86A /* LaunchScreen.storyboard */,
-				BC35230B271766BD0086F86A /* Info.plist */,
+				BCA8861427189DF10096CBF3 /* AppDelegate.swift */,
+				BCA8861627189DF10096CBF3 /* SceneDelegate.swift */,
+				BCA8861827189DF10096CBF3 /* ViewController.swift */,
+				BCA8861A27189DF10096CBF3 /* Main.storyboard */,
+				BCA8861D27189DF30096CBF3 /* Assets.xcassets */,
+				BCA8861F27189DF30096CBF3 /* LaunchScreen.storyboard */,
+				BCA8862227189DF30096CBF3 /* Info.plist */,
 			);
 			path = "Charts-Tutorial";
-			sourceTree = "<group>";
-		};
-		BC352313271766BD0086F86A /* Charts-TutorialTests */ = {
-			isa = PBXGroup;
-			children = (
-				BC352314271766BD0086F86A /* Charts_TutorialTests.swift */,
-				BC352316271766BD0086F86A /* Info.plist */,
-			);
-			path = "Charts-TutorialTests";
-			sourceTree = "<group>";
-		};
-		BC35231E271766BD0086F86A /* Charts-TutorialUITests */ = {
-			isa = PBXGroup;
-			children = (
-				BC35231F271766BD0086F86A /* Charts_TutorialUITests.swift */,
-				BC352321271766BD0086F86A /* Info.plist */,
-			);
-			path = "Charts-TutorialUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BC3522F9271766BB0086F86A /* Charts-Tutorial */ = {
+		BCA8861027189DF10096CBF3 /* Charts-Tutorial */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC352324271766BD0086F86A /* Build configuration list for PBXNativeTarget "Charts-Tutorial" */;
+			buildConfigurationList = BCA8862527189DF30096CBF3 /* Build configuration list for PBXNativeTarget "Charts-Tutorial" */;
 			buildPhases = (
-				BC3522F6271766BB0086F86A /* Sources */,
-				BC3522F7271766BB0086F86A /* Frameworks */,
-				BC3522F8271766BB0086F86A /* Resources */,
+				BCA8860D27189DF10096CBF3 /* Sources */,
+				BCA8860E27189DF10096CBF3 /* Frameworks */,
+				BCA8860F27189DF10096CBF3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -145,169 +84,81 @@
 			);
 			name = "Charts-Tutorial";
 			productName = "Charts-Tutorial";
-			productReference = BC3522FA271766BB0086F86A /* Charts-Tutorial.app */;
+			productReference = BCA8861127189DF10096CBF3 /* Charts-Tutorial.app */;
 			productType = "com.apple.product-type.application";
-		};
-		BC35230F271766BD0086F86A /* Charts-TutorialTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BC352327271766BD0086F86A /* Build configuration list for PBXNativeTarget "Charts-TutorialTests" */;
-			buildPhases = (
-				BC35230C271766BD0086F86A /* Sources */,
-				BC35230D271766BD0086F86A /* Frameworks */,
-				BC35230E271766BD0086F86A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BC352312271766BD0086F86A /* PBXTargetDependency */,
-			);
-			name = "Charts-TutorialTests";
-			productName = "Charts-TutorialTests";
-			productReference = BC352310271766BD0086F86A /* Charts-TutorialTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		BC35231A271766BD0086F86A /* Charts-TutorialUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BC35232A271766BD0086F86A /* Build configuration list for PBXNativeTarget "Charts-TutorialUITests" */;
-			buildPhases = (
-				BC352317271766BD0086F86A /* Sources */,
-				BC352318271766BD0086F86A /* Frameworks */,
-				BC352319271766BD0086F86A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BC35231D271766BD0086F86A /* PBXTargetDependency */,
-			);
-			name = "Charts-TutorialUITests";
-			productName = "Charts-TutorialUITests";
-			productReference = BC35231B271766BD0086F86A /* Charts-TutorialUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BC3522F2271766BB0086F86A /* Project object */ = {
+		BCA8860927189DF10096CBF3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1250;
-				LastUpgradeCheck = 1250;
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					BC3522F9271766BB0086F86A = {
-						CreatedOnToolsVersion = 12.5.1;
-					};
-					BC35230F271766BD0086F86A = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = BC3522F9271766BB0086F86A;
-					};
-					BC35231A271766BD0086F86A = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = BC3522F9271766BB0086F86A;
+					BCA8861027189DF10096CBF3 = {
+						CreatedOnToolsVersion = 13.0;
 					};
 				};
 			};
-			buildConfigurationList = BC3522F5271766BB0086F86A /* Build configuration list for PBXProject "Charts-Tutorial" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = BCA8860C27189DF10096CBF3 /* Build configuration list for PBXProject "Charts-Tutorial" */;
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = BC3522F1271766BB0086F86A;
-			productRefGroup = BC3522FB271766BB0086F86A /* Products */;
+			mainGroup = BCA8860827189DF10096CBF3;
+			productRefGroup = BCA8861227189DF10096CBF3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BC3522F9271766BB0086F86A /* Charts-Tutorial */,
-				BC35230F271766BD0086F86A /* Charts-TutorialTests */,
-				BC35231A271766BD0086F86A /* Charts-TutorialUITests */,
+				BCA8861027189DF10096CBF3 /* Charts-Tutorial */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BC3522F8271766BB0086F86A /* Resources */ = {
+		BCA8860F27189DF10096CBF3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC35230A271766BD0086F86A /* LaunchScreen.storyboard in Resources */,
-				BC352307271766BD0086F86A /* Assets.xcassets in Resources */,
-				BC352305271766BB0086F86A /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC35230E271766BD0086F86A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC352319271766BD0086F86A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				BCA8862127189DF30096CBF3 /* LaunchScreen.storyboard in Resources */,
+				BCA8861E27189DF30096CBF3 /* Assets.xcassets in Resources */,
+				BCA8861C27189DF10096CBF3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BC3522F6271766BB0086F86A /* Sources */ = {
+		BCA8860D27189DF10096CBF3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC352302271766BB0086F86A /* ViewController.swift in Sources */,
-				BC3522FE271766BB0086F86A /* AppDelegate.swift in Sources */,
-				BC352300271766BB0086F86A /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC35230C271766BD0086F86A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC352315271766BD0086F86A /* Charts_TutorialTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC352317271766BD0086F86A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC352320271766BD0086F86A /* Charts_TutorialUITests.swift in Sources */,
+				BCA8861927189DF10096CBF3 /* ViewController.swift in Sources */,
+				BCA8861527189DF10096CBF3 /* AppDelegate.swift in Sources */,
+				BCA8861727189DF10096CBF3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		BC352312271766BD0086F86A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BC3522F9271766BB0086F86A /* Charts-Tutorial */;
-			targetProxy = BC352311271766BD0086F86A /* PBXContainerItemProxy */;
-		};
-		BC35231D271766BD0086F86A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BC3522F9271766BB0086F86A /* Charts-Tutorial */;
-			targetProxy = BC35231C271766BD0086F86A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		BC352303271766BB0086F86A /* Main.storyboard */ = {
+		BCA8861A27189DF10096CBF3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BC352304271766BB0086F86A /* Base */,
+				BCA8861B27189DF10096CBF3 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		BC352308271766BD0086F86A /* LaunchScreen.storyboard */ = {
+		BCA8861F27189DF30096CBF3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BC352309271766BD0086F86A /* Base */,
+				BCA8862027189DF30096CBF3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -315,13 +166,13 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		BC352322271766BD0086F86A /* Debug */ = {
+		BCA8862327189DF30096CBF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -366,7 +217,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -376,13 +227,13 @@
 			};
 			name = Debug;
 		};
-		BC352323271766BD0086F86A /* Release */ = {
+		BCA8862427189DF30096CBF3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -421,7 +272,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -431,168 +282,84 @@
 			};
 			name = Release;
 		};
-		BC352325271766BD0086F86A /* Debug */ = {
+		BCA8862627189DF30096CBF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MR42Y7HGWG;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Charts-Tutorial/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "AdhilAkbar.Charts-Tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		BC352326271766BD0086F86A /* Release */ = {
+		BCA8862727189DF30096CBF3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MR42Y7HGWG;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Charts-Tutorial/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "AdhilAkbar.Charts-Tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		BC352328271766BD0086F86A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MR42Y7HGWG;
-				INFOPLIST_FILE = "Charts-TutorialTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "AdhilAkbar.Charts-TutorialTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Charts-Tutorial.app/Charts-Tutorial";
-			};
-			name = Debug;
-		};
-		BC352329271766BD0086F86A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MR42Y7HGWG;
-				INFOPLIST_FILE = "Charts-TutorialTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "AdhilAkbar.Charts-TutorialTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Charts-Tutorial.app/Charts-Tutorial";
-			};
-			name = Release;
-		};
-		BC35232B271766BD0086F86A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MR42Y7HGWG;
-				INFOPLIST_FILE = "Charts-TutorialUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "AdhilAkbar.Charts-TutorialUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Charts-Tutorial";
-			};
-			name = Debug;
-		};
-		BC35232C271766BD0086F86A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MR42Y7HGWG;
-				INFOPLIST_FILE = "Charts-TutorialUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "AdhilAkbar.Charts-TutorialUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Charts-Tutorial";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BC3522F5271766BB0086F86A /* Build configuration list for PBXProject "Charts-Tutorial" */ = {
+		BCA8860C27189DF10096CBF3 /* Build configuration list for PBXProject "Charts-Tutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC352322271766BD0086F86A /* Debug */,
-				BC352323271766BD0086F86A /* Release */,
+				BCA8862327189DF30096CBF3 /* Debug */,
+				BCA8862427189DF30096CBF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC352324271766BD0086F86A /* Build configuration list for PBXNativeTarget "Charts-Tutorial" */ = {
+		BCA8862527189DF30096CBF3 /* Build configuration list for PBXNativeTarget "Charts-Tutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC352325271766BD0086F86A /* Debug */,
-				BC352326271766BD0086F86A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BC352327271766BD0086F86A /* Build configuration list for PBXNativeTarget "Charts-TutorialTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BC352328271766BD0086F86A /* Debug */,
-				BC352329271766BD0086F86A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BC35232A271766BD0086F86A /* Build configuration list for PBXNativeTarget "Charts-TutorialUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BC35232B271766BD0086F86A /* Debug */,
-				BC35232C271766BD0086F86A /* Release */,
+				BCA8862627189DF30096CBF3 /* Debug */,
+				BCA8862727189DF30096CBF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BC3522F2271766BB0086F86A /* Project object */;
+	rootObject = BCA8860927189DF10096CBF3 /* Project object */;
 }
